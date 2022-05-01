@@ -1,0 +1,16 @@
+{
+	"name": "Roboclaw Msgs Docker",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		"--name", "roboclaw-msgs-vscode"
+	],
+
+	"settings": { 
+	},
+
+	"appPort": [],
+
+	"extensions": [
+	]
+}
