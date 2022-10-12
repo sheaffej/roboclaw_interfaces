@@ -1,7 +1,7 @@
 FROM ros:galactic-ros-base
 
 ENV ROS_WS /ros2
-ENV PKG_NAME roboclaw_msgs
+ENV PKG_NAME roboclaw_interfaces
 SHELL [ "bash", "-c"]
 
 COPY .devcontainer/entrypoint.sh /
